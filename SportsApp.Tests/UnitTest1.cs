@@ -10,8 +10,6 @@ namespace SportsApp.Tests
         [Fact]
         public void Test1()
         {
-            var test = new ReachabilityTest();
-            var testController = new HomeController();
         }
     }
 }

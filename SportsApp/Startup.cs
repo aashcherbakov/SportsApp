@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using SportsApp.Models;
 
 namespace SportsApp
 {
@@ -27,6 +28,9 @@ namespace SportsApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Add fake product repository to replace it in future with real one.
+            services.AddTransient<IProductRepository, FakeProductRepository>();
+
             // Add framework services.
             services.AddMvc();
         }

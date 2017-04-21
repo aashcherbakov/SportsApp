@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Product>
+
+@{
+    Layout = "_Layout";
+}
+
+@foreach (var product in Model)
+{
+    <div>
+        <h3>@product.Name</h3>
+        @product.Description
+        <h4>@product.Price.ToString("c")</h4>
+    </div>
+}

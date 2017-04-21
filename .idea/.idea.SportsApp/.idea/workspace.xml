@@ -2,68 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe4444e-9848-404f-8e30-2aea07387fb5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp.Tests/SportsApp.Tests.csproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp.Tests/UnitTest1.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Controllers/HomeController.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Models/ReachabilityTest.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Program.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/SportsApp.csproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Startup.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/Home/About.cshtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/Home/Contact.cshtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/Home/Index.cshtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/Shared/Error.cshtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/_ViewImports.cshtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/_ViewStart.cshtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/appsettings.Development.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/appsettings.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/bundleconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/css/site.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/images/banner1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/images/banner2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/images/banner3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/images/banner4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/js/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/js/site.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/bootstrap/dist/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation/dist/additional-methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/wwwroot/lib/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Models/FakeProductRepository.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Models/IProductRepository.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Models/Product.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SportsApp/Controllers/HomeController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SportsApp/Models/ReachabilityTest.cs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.SportsApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.SportsApp/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp.Tests/UnitTest1.cs" afterPath="$PROJECT_DIR$/SportsApp.Tests/UnitTest1.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/SportsApp.csproj" afterPath="$PROJECT_DIR$/SportsApp/SportsApp.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Startup.cs" afterPath="$PROJECT_DIR$/SportsApp/Startup.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Views/_ViewImports.cshtml" afterPath="$PROJECT_DIR$/SportsApp/Views/_ViewImports.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,8 +24,129 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Product.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Models/Product.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <folding>
+                <marker date="1492781240000" expanded="true" signature="26:287" ph="{...}" />
+                <marker date="1492781240000" expanded="true" signature="53:285" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IProductRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Models/IProductRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding>
+                <marker date="1492781235000" expanded="true" signature="61:164" ph="{...}" />
+                <marker date="1492781235000" expanded="true" signature="103:162" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeProductRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Models/FakeProductRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding>
+                <marker date="1492781472000" expanded="true" signature="61:407" ph="{...}" />
+                <marker date="1492781472000" expanded="true" signature="122:405" ph="{...}" />
+                <marker date="1492781472000" expanded="true" signature="203:398" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <marker date="1492782039000" expanded="true" signature="6:318" ph="..." />
+                <marker date="1492782039000" expanded="true" signature="339:1693" ph="{...}" />
+                <marker date="1492782039000" expanded="true" signature="366:1691" ph="{...}" />
+                <marker date="1492782039000" expanded="true" signature="420:808" ph="{...}" />
+                <marker date="1492782039000" expanded="true" signature="1035:1288" ph="{...}" />
+                <marker date="1492782039000" expanded="true" signature="1506:1685" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding>
+                <marker date="1492782309000" expanded="true" signature="6:55" ph="..." />
+                <marker date="1492782309000" expanded="true" signature="88:372" ph="{...}" />
+                <marker date="1492782309000" expanded="true" signature="137:370" ph="{...}" />
+                <marker date="1492782309000" expanded="true" signature="249:300" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.cshtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <marker date="1492782981000" expanded="true" signature="29:57" ph="@..." />
+                <marker date="1492782981000" expanded="true" signature="59:221" ph="@..." />
+                <marker date="1492782981000" expanded="true" signature="90:221" ph="{...}" />
+                <marker date="1492782981000" expanded="true" signature="97:219" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <marker date="1492782836000" expanded="true" signature="17:180" ph="&lt;html.../&gt;" />
+                <marker date="1492782836000" expanded="true" signature="24:126" ph="&lt;head.../&gt;" />
+                <marker date="1492782836000" expanded="true" signature="127:172" ph="&lt;body.../&gt;" />
+                <marker date="1492782836000" expanded="true" signature="134:164" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SportsApp/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Models/IProductRepository.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Models/FakeProductRepository.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/SportsApp.Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -87,6 +159,9 @@
     <option name="y" value="-277" />
     <option name="width" value="1920" />
     <option name="height" value="1173" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -129,15 +204,7 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SportsApp.Tests" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="References" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".NETCoreApp 1.1.0.0" />
+              <option name="myItemId" value="SportsApp" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,6 +217,90 @@
               <option name="myItemId" value="SportsApp (2 projects)" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
@@ -160,6 +311,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,6 +336,48 @@
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
@@ -212,12 +406,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492780404359</updated>
-      <workItem from="1492780406831" duration="222000" />
+      <workItem from="1492780406831" duration="2105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222000" />
+    <option name="totallyTimeSpent" value="2105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,17 +424,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-277" width="1920" height="1173" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1785384" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1785384" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21831736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -264,5 +459,126 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <marker date="1492781240000" expanded="true" signature="26:287" ph="{...}" />
+            <marker date="1492781240000" expanded="true" signature="53:285" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/IProductRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <marker date="1492781235000" expanded="true" signature="61:164" ph="{...}" />
+            <marker date="1492781235000" expanded="true" signature="103:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/FakeProductRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <marker date="1492781472000" expanded="true" signature="61:407" ph="{...}" />
+            <marker date="1492781472000" expanded="true" signature="122:405" ph="{...}" />
+            <marker date="1492781472000" expanded="true" signature="203:398" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1492782039000" expanded="true" signature="6:318" ph="..." />
+            <marker date="1492782039000" expanded="true" signature="339:1693" ph="{...}" />
+            <marker date="1492782039000" expanded="true" signature="366:1691" ph="{...}" />
+            <marker date="1492782039000" expanded="true" signature="420:808" ph="{...}" />
+            <marker date="1492782039000" expanded="true" signature="1035:1288" ph="{...}" />
+            <marker date="1492782039000" expanded="true" signature="1506:1685" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp.Tests/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1492782098000" expanded="false" signature="6:79" ph="..." />
+            <marker date="1492782098000" expanded="true" signature="106:212" ph="{...}" />
+            <marker date="1492782098000" expanded="true" signature="135:210" ph="{...}" />
+            <marker date="1492782098000" expanded="true" signature="184:204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <marker date="1492782309000" expanded="true" signature="6:55" ph="..." />
+            <marker date="1492782309000" expanded="true" signature="88:372" ph="{...}" />
+            <marker date="1492782309000" expanded="true" signature="137:370" ph="{...}" />
+            <marker date="1492782309000" expanded="true" signature="249:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492779259000" expanded="true" signature="0:28" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1492782836000" expanded="true" signature="17:180" ph="&lt;html.../&gt;" />
+            <marker date="1492782836000" expanded="true" signature="24:126" ph="&lt;head.../&gt;" />
+            <marker date="1492782836000" expanded="true" signature="127:172" ph="&lt;body.../&gt;" />
+            <marker date="1492782836000" expanded="true" signature="134:164" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <marker date="1492782981000" expanded="true" signature="29:57" ph="@..." />
+            <marker date="1492782981000" expanded="true" signature="59:221" ph="@..." />
+            <marker date="1492782981000" expanded="true" signature="90:221" ph="{...}" />
+            <marker date="1492782981000" expanded="true" signature="97:219" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
