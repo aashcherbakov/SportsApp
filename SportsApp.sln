@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsApp", "SportsApp\SportsApp.csproj", "{887AFABC-C153-4092-85EB-65FEE0A947BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsApp.Tests", "SportsApp.Tests\SportsApp.Tests.csproj", "{6E628ED2-31DE-4E06-AF3A-5B3FD9227205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{887AFABC-C153-4092-85EB-65FEE0A947BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887AFABC-C153-4092-85EB-65FEE0A947BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887AFABC-C153-4092-85EB-65FEE0A947BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887AFABC-C153-4092-85EB-65FEE0A947BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E628ED2-31DE-4E06-AF3A-5B3FD9227205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E628ED2-31DE-4E06-AF3A-5B3FD9227205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E628ED2-31DE-4E06-AF3A-5B3FD9227205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E628ED2-31DE-4E06-AF3A-5B3FD9227205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
