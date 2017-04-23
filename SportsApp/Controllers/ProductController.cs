@@ -5,7 +5,7 @@ namespace SportsApp.Controllers
 {
     public class ProductController: Controller
     {
-        private IProductRepository repository;
+        private readonly IProductRepository repository;
 
         public ProductController(IProductRepository repo)
         {
