@@ -6,11 +6,15 @@ namespace SportsApp.Models
     {
         private readonly ApplicationDbContext context;
 
+        /// <summary>
+        /// List of all products
+        /// </summary>
+        public IEnumerable<Product> Products => context.Products;
+
         public EFProductRepository(ApplicationDbContext ctx)
         {
             context = ctx;
         }
 
-        public IEnumerable<Product> Products => context.Products;
     }
 }
