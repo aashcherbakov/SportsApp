@@ -9,7 +9,7 @@ namespace SportsApp.Infrastructure
 {
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageLinkTagHelper : TagHelper {
-        private IUrlHelperFactory urlHelperFactory;
+        private readonly IUrlHelperFactory urlHelperFactory;
 
         public PageLinkTagHelper(IUrlHelperFactory helperFactory) {
             urlHelperFactory = helperFactory;
@@ -30,10 +30,10 @@ namespace SportsApp.Infrastructure
 
         public override void Process(TagHelperContext context,
             TagHelperOutput output) {
-            IUrlHelper urlHelper = urlHelperFactory.GetUrlHelper(ViewContext);
-            TagBuilder result = new TagBuilder("div");
-            for (int i = 1; i <= PageModel.TotalPages; i++) {
-                TagBuilder tag = new TagBuilder("a");
+            var urlHelper = urlHelperFactory.GetUrlHelper(ViewContext);
+            var result = new TagBuilder("div");
+            for (var i = 1; i <= PageModel.TotalPages; i++) {
+                var tag = new TagBuilder("a");
                 tag.Attributes["href"] = urlHelper.Action(PageAction,
                     new { page = i });
                 if (PageClassesEnabled) {

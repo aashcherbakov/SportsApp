@@ -1,10 +1,1 @@
-﻿@model IEnumerable<Product>
-
-@foreach (var product in Model)
-{
-    <div>
-        <h3>@product.Name</h3>
-        @product.Description
-        <h4>@product.Price.ToString("c")</h4>
-    </div>
-}
+﻿@model ProductListViewModel@foreach (var p in Model.Products) {    @Html.Partial("ProductSummary", p)}<div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true"     page-class="btn" page-class-normal="btn-default"     page-class-selected="btn-primary" class="btn-group pull-right"></div>

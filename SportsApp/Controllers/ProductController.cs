@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using SportsApp.Models;
+using SportsApp.Models.ViewModels;
 
 namespace SportsApp.Controllers
 {
@@ -16,10 +17,20 @@ namespace SportsApp.Controllers
 
         public ViewResult List(int page = 1)
         {
-            return View(repository.Products
-                .OrderBy(p => p.ProductId)
-                .Skip((page - 1) * PageSize)
-                .Take(PageSize));
+            return View(new ProductListViewModel
+            {
+                Products = repository.Products
+                    .OrderBy(p => p.ProductId)
+                    .Skip((page - 1) * PageSize)
+                    .Take(PageSize),
+
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = page,
+                    ItemsPerPage = PageSize,
+                    TotalItems = repository.Products.Count()
+                }
+            });
         }
     }
 }
