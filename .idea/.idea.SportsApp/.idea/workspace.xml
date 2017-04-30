@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe4444e-9848-404f-8e30-2aea07387fb5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Models/ViewModels/ProductListViewModel.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/Shared/ProductSummary.cshtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SportsApp/Views/Home/About.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SportsApp/Views/Home/Contact.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SportsApp/Views/Home/Index.cshtml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp.Tests/NavigationMenuComponentTests.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Components/NavigationMenuViewComponent.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SportsApp/Views/Shared/Components/NavigationMenu/Default.cshtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.SportsApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.SportsApp/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp.Tests/PageLinkTagHelperTests.cs" afterPath="$PROJECT_DIR$/SportsApp.Tests/PageLinkTagHelperTests.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp.Tests/ProductControllerTests.cs" afterPath="$PROJECT_DIR$/SportsApp.Tests/ProductControllerTests.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs" afterPath="$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Infrastructure/PageLinkTagHelper.cs" afterPath="$PROJECT_DIR$/SportsApp/Infrastructure/PageLinkTagHelper.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Models/ViewModels/ProductListViewModel.cs" afterPath="$PROJECT_DIR$/SportsApp/Models/ViewModels/ProductListViewModel.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Program.cs" afterPath="$PROJECT_DIR$/SportsApp/Program.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Startup.cs" afterPath="$PROJECT_DIR$/SportsApp/Startup.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml" afterPath="$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml" />
@@ -34,19 +35,126 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SportsApp/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="517">
+              <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding>
-                <marker date="1492984808000" expanded="true" signature="6:355" ph="..." />
-                <marker date="1492984808000" expanded="true" signature="376:2276" ph="{...}" />
-                <marker date="1492984808000" expanded="true" signature="403:2274" ph="{...}" />
-                <marker date="1492984808000" expanded="true" signature="515:903" ph="{...}" />
-                <marker date="1492984808000" expanded="true" signature="1072:1422" ph="{...}" />
-                <marker date="1492984808000" expanded="true" signature="1640:2268" ph="{...}" />
-                <marker date="1492984808000" expanded="true" signature="1800:2212" ph="{...}" />
+                <marker date="1493512804000" expanded="true" signature="6:355" ph="..." />
+                <marker date="1493512804000" expanded="true" signature="376:2769" ph="{...}" />
+                <marker date="1493512804000" expanded="true" signature="403:2767" ph="{...}" />
+                <marker date="1493512804000" expanded="true" signature="515:903" ph="{...}" />
+                <marker date="1493512804000" expanded="true" signature="1072:1422" ph="{...}" />
+                <marker date="1493512804000" expanded="true" signature="1640:2761" ph="{...}" />
+                <marker date="1493512804000" expanded="true" signature="1800:2705" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductControllerTests.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SportsApp.Tests/ProductControllerTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="74" column="53" lean-forward="false" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+              <folding>
+                <marker date="1493585040000" expanded="true" signature="6:210" ph="..." />
+                <marker date="1493585040000" expanded="true" signature="237:3651" ph="{...}" />
+                <marker date="1493585040000" expanded="true" signature="279:3649" ph="{...}" />
+                <marker date="1493585040000" expanded="true" signature="335:945" ph="{...}" />
+                <marker date="1493585040000" expanded="true" signature="1014:1641" ph="{...}" />
+                <marker date="1493585040000" expanded="true" signature="2321:3116" ph="{...}" />
+                <marker date="1493585040000" expanded="true" signature="3177:3643" ph="{...}" />
+                <marker date="1493585040000" expanded="true" signature="3233:3632" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageLinkTagHelper.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Infrastructure/PageLinkTagHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <marker date="1493562534000" expanded="true" signature="6:272" ph="..." />
+                <marker date="1493562534000" expanded="true" signature="308:2063" ph="{...}" />
+                <marker date="1493562534000" expanded="true" signature="416:2061" ph="{...}" />
+                <marker date="1493562534000" expanded="true" signature="546:603" ph="{...}" />
+                <marker date="1493562534000" expanded="true" signature="1302:2055" ph="{...}" />
+                <marker date="1493562534000" expanded="true" signature="1484:1988" ph="{...}" />
+                <marker date="1493562534000" expanded="true" signature="1702:1872" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <marker date="1493562049000" expanded="true" signature="17:591" ph="&lt;html.../&gt;" />
+                <marker date="1493562049000" expanded="true" signature="24:209" ph="&lt;head.../&gt;" />
+                <marker date="1493562049000" expanded="true" signature="210:583" ph="&lt;body.../&gt;" />
+                <marker date="1493562049000" expanded="true" signature="221:343" ph="&lt;div.../&gt;" />
+                <marker date="1493562049000" expanded="true" signature="348:575" ph="&lt;div.../&gt;" />
+                <marker date="1493562049000" expanded="true" signature="380:492" ph="&lt;div.../&gt;" />
+                <marker date="1493562049000" expanded="true" signature="501:564" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigationMenuViewComponent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Components/NavigationMenuViewComponent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+              <folding>
+                <marker date="1493582712000" expanded="true" signature="6:74" ph="..." />
+                <marker date="1493582712000" expanded="true" signature="106:634" ph="{...}" />
+                <marker date="1493582712000" expanded="true" signature="169:632" ph="{...}" />
+                <marker date="1493582712000" expanded="true" signature="291:342" ph="{...}" />
+                <marker date="1493582712000" expanded="true" signature="388:626" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Default.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Views/Shared/Components/NavigationMenu/Default.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <marker date="1493583639000" expanded="true" signature="47:172" ph="&lt;a.../&gt;" />
+                <marker date="1493583639000" expanded="true" signature="174:460" ph="@..." />
+                <marker date="1493583639000" expanded="true" signature="206:460" ph="{...}" />
+                <marker date="1493583639000" expanded="true" signature="213:458" ph="&lt;a.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigationMenuComponentTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp.Tests/NavigationMenuComponentTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+              <folding>
+                <marker date="1493584416000" expanded="true" signature="6:253" ph="..." />
+                <marker date="1493584416000" expanded="true" signature="280:2401" ph="{...}" />
+                <marker date="1493584416000" expanded="true" signature="328:2399" ph="{...}" />
+                <marker date="1493584416000" expanded="true" signature="393:1270" ph="{...}" />
+                <marker date="1493584416000" expanded="true" signature="577:928" ph="{...}" />
+                <marker date="1493584416000" expanded="true" signature="1336:2393" ph="{...}" />
+                <marker date="1493584416000" expanded="true" signature="1574:1759" ph="{...}" />
+                <marker date="1493584416000" expanded="true" signature="1844:2105" ph="{...}" />
+                <marker date="1493584416000" expanded="true" signature="1926:2091" ph="{...}" />
+                <marker date="1493584416000" expanded="true" signature="1998:2073" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -55,16 +163,47 @@
       <file leaf-file-name="ProductController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="495">
+              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
-                <marker date="1492994136000" expanded="true" signature="6:109" ph="..." />
-                <marker date="1492994136000" expanded="true" signature="142:956" ph="{...}" />
-                <marker date="1492994136000" expanded="true" signature="191:954" ph="{...}" />
-                <marker date="1492994136000" expanded="true" signature="345:396" ph="{...}" />
-                <marker date="1492994136000" expanded="true" signature="442:948" ph="{...}" />
-                <marker date="1492994136000" expanded="true" signature="514:936" ph="{...}" />
-                <marker date="1492994136000" expanded="true" signature="757:922" ph="{...}" />
+                <marker date="1493584031000" expanded="true" signature="6:109" ph="..." />
+                <marker date="1493584031000" expanded="true" signature="142:1230" ph="{...}" />
+                <marker date="1493584031000" expanded="true" signature="191:1228" ph="{...}" />
+                <marker date="1493584031000" expanded="true" signature="345:396" ph="{...}" />
+                <marker date="1493584031000" expanded="true" signature="459:1222" ph="{...}" />
+                <marker date="1493584031000" expanded="true" signature="531:1210" ph="{...}" />
+                <marker date="1493584031000" expanded="true" signature="862:1151" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <marker date="1493562380000" expanded="true" signature="29:106" ph="@..." />
+                <marker date="1493562380000" expanded="true" signature="64:106" ph="{...}" />
+                <marker date="1493562380000" expanded="true" signature="108:368" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageLinkTagHelperTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SportsApp.Tests/PageLinkTagHelperTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <folding>
+                <marker date="1493510273000" expanded="true" signature="6:271" ph="..." />
+                <marker date="1493510273000" expanded="true" signature="298:1938" ph="{...}" />
+                <marker date="1493510273000" expanded="true" signature="340:1936" ph="{...}" />
+                <marker date="1493510273000" expanded="true" signature="408:1930" ph="{...}" />
+                <marker date="1493510273000" expanded="true" signature="987:1242" ph="{...}" />
+                <marker date="1493510273000" expanded="true" signature="1036:1183" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,16 +228,21 @@
         <option value="$PROJECT_DIR$/SportsApp/Models/EFProductRepository.cs" />
         <option value="$PROJECT_DIR$/SportsApp/Models/ViewModels/PagingInfo.cs" />
         <option value="$PROJECT_DIR$/SportsApp/Views/_ViewImports.cshtml" />
-        <option value="$PROJECT_DIR$/SportsApp.Tests/PageLinkTagHelperTests.cs" />
         <option value="$PROJECT_DIR$/SportsApp/Infrastructure/PageLinkTagHelpers.cs" />
-        <option value="$PROJECT_DIR$/SportsApp/Infrastructure/PageLinkTagHelper.cs" />
-        <option value="$PROJECT_DIR$/SportsApp/Models/ViewModels/ProductListViewModel.cs" />
-        <option value="$PROJECT_DIR$/SportsApp.Tests/ProductControllerTests.cs" />
-        <option value="$PROJECT_DIR$/SportsApp/Startup.cs" />
-        <option value="$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml" />
         <option value="$PROJECT_DIR$/SportsApp/Views/Shared/ProductSummary.cshtml" />
+        <option value="$PROJECT_DIR$/SportsApp.Tests/PageLinkTagHelperTests.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Models/ViewModels/ProductListViewModel.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Program.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Startup.cs" />
         <option value="$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/SportsApp/Components/NavigationMenuViewComponents.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml" />
+        <option value="$PROJECT_DIR$/SportsApp/Infrastructure/PageLinkTagHelper.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Components/NavigationMenuViewComponent.cs" />
+        <option value="$PROJECT_DIR$/SportsApp/Views/Shared/Components/NavigationMenu/Default.cshtml" />
         <option value="$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/SportsApp.Tests/NavigationMenuComponentTests.cs" />
+        <option value="$PROJECT_DIR$/SportsApp.Tests/ProductControllerTests.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +261,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1280" />
     <option name="y" value="-377" />
-    <option name="width" value="1371" />
+    <option name="width" value="1442" />
     <option name="height" value="1173" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -150,6 +294,10 @@
               <option name="myItemId" value="SportsApp (2 projects)" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp.Tests" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -165,6 +313,192 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NavigationMenu" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewModels" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infrastructure" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SportsApp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -173,7 +507,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -182,6 +516,7 @@
     <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/a_shcherbakov/Developer/dotnet/SportsApp/SportsApp/Program.cs" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,12 +624,14 @@
       <workItem from="1492872425122" duration="2107000" />
       <workItem from="1492884124143" duration="9262000" />
       <workItem from="1492906138738" duration="10953000" />
-      <workItem from="1492994038999" duration="98000" />
+      <workItem from="1492994038999" duration="1366000" />
+      <workItem from="1493504425496" duration="1463000" />
+      <workItem from="1493510784723" duration="10467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24525000" />
+    <option name="totallyTimeSpent" value="37723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,19 +643,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-377" width="1371" height="1173" extended-state="0" />
+    <frame x="1280" y="-377" width="1442" height="1173" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5026336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1785384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17946346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24144311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293247" sideWeight="0.49736643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24976873" sideWeight="0.49736643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.49736643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24755456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -346,34 +683,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SportsApp/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="32" lean-forward="false" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <marker date="1492984808000" expanded="true" signature="6:355" ph="..." />
-            <marker date="1492984808000" expanded="true" signature="376:2276" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="403:2274" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="515:903" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1072:1422" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1640:2268" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1800:2212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
-            <marker date="1492994136000" expanded="true" signature="6:109" ph="..." />
-            <marker date="1492994136000" expanded="true" signature="142:956" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="191:954" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="345:396" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="442:948" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="514:936" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="757:922" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="6:109" ph="..." />
+            <marker date="1493584031000" expanded="true" signature="142:1230" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="191:1228" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="345:396" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="459:1222" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="531:1210" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="862:1151" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -382,11 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding>
-            <marker date="1492993927000" expanded="true" signature="29:106" ph="@..." />
-            <marker date="1492993927000" expanded="true" signature="64:106" ph="{...}" />
-            <marker date="1492993927000" expanded="true" signature="108:320" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,11 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1492993335000" expanded="true" signature="16:255" ph="&lt;div.../&gt;" />
-            <marker date="1492993335000" expanded="true" signature="39:199" ph="&lt;h3.../&gt;" />
-            <marker date="1492993335000" expanded="true" signature="89:189" ph="&lt;span.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -407,12 +718,13 @@
         <state relative-caret-position="690">
           <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
-            <marker date="1492971520000" expanded="false" signature="6:238" ph="..." />
-            <marker date="1492971520000" expanded="true" signature="382:1855" ph="{...}" />
-            <marker date="1492971520000" expanded="true" signature="512:569" ph="{...}" />
-            <marker date="1492971520000" expanded="true" signature="1092:1849" ph="{...}" />
-            <marker date="1492971520000" expanded="true" signature="1274:1782" ph="{...}" />
-            <marker date="1492971520000" expanded="true" signature="1472:1666" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="6:272" ph="..." />
+            <marker date="1493562534000" expanded="true" signature="308:2063" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="416:2061" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="546:603" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="1302:2055" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="1484:1988" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="1702:1872" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -421,10 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <marker date="1492979482000" expanded="true" signature="72:236" ph="{...}" />
-            <marker date="1492979482000" expanded="true" signature="112:234" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,9 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-          <folding>
-            <marker date="1492993646000" expanded="false" signature="7:58" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,15 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <marker date="1492993562000" expanded="true" signature="17:576" ph="&lt;html.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="24:209" ph="&lt;head.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="210:568" ph="&lt;body.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="221:343" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="348:560" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="380:477" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="486:549" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -459,13 +755,13 @@
         <state relative-caret-position="555">
           <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding>
-            <marker date="1492984808000" expanded="true" signature="6:355" ph="..." />
-            <marker date="1492984808000" expanded="true" signature="376:2276" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="403:2274" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="515:903" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1072:1422" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1640:2268" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1800:2212" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="6:355" ph="..." />
+            <marker date="1493512804000" expanded="true" signature="376:2769" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="403:2767" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="515:903" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1072:1422" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1640:2761" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1800:2705" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -489,13 +785,13 @@
         <state relative-caret-position="435">
           <caret line="38" column="88" lean-forward="false" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
           <folding>
-            <marker date="1492984808000" expanded="true" signature="6:355" ph="..." />
-            <marker date="1492984808000" expanded="true" signature="376:2276" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="403:2274" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="515:903" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1072:1422" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1640:2268" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1800:2212" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="6:355" ph="..." />
+            <marker date="1493512804000" expanded="true" signature="376:2769" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="403:2767" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="515:903" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1072:1422" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1640:2761" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1800:2705" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -504,11 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1492993927000" expanded="true" signature="29:106" ph="@..." />
-            <marker date="1492993927000" expanded="true" signature="64:106" ph="{...}" />
-            <marker date="1492993927000" expanded="true" signature="108:320" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,15 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <marker date="1492993562000" expanded="true" signature="17:576" ph="&lt;html.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="24:209" ph="&lt;head.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="210:568" ph="&lt;body.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="221:343" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="348:560" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="380:477" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="486:549" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,13 +815,13 @@
         <state relative-caret-position="270">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <marker date="1492994136000" expanded="true" signature="6:109" ph="..." />
-            <marker date="1492994136000" expanded="true" signature="142:956" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="191:954" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="345:396" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="442:948" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="514:936" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="757:922" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="6:109" ph="..." />
+            <marker date="1493584031000" expanded="true" signature="142:1230" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="191:1228" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="345:396" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="459:1222" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="531:1210" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="862:1151" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -570,13 +852,13 @@
         <state relative-caret-position="480">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <marker date="1492984808000" expanded="true" signature="6:355" ph="..." />
-            <marker date="1492984808000" expanded="true" signature="376:2276" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="403:2274" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="515:903" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1072:1422" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1640:2268" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1800:2212" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="6:355" ph="..." />
+            <marker date="1493512804000" expanded="true" signature="376:2769" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="403:2767" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="515:903" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1072:1422" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1640:2761" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1800:2705" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -586,13 +868,13 @@
         <state relative-caret-position="210">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
-            <marker date="1492994136000" expanded="true" signature="6:109" ph="..." />
-            <marker date="1492994136000" expanded="true" signature="142:956" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="191:954" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="345:396" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="442:948" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="514:936" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="757:922" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="6:109" ph="..." />
+            <marker date="1493584031000" expanded="true" signature="142:1230" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="191:1228" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="345:396" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="459:1222" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="531:1210" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="862:1151" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -601,15 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1492993562000" expanded="true" signature="17:576" ph="&lt;html.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="24:209" ph="&lt;head.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="210:568" ph="&lt;body.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="221:343" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="348:560" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="380:477" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="486:549" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,11 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <marker date="1492993927000" expanded="true" signature="29:106" ph="@..." />
-            <marker date="1492993927000" expanded="true" signature="64:106" ph="{...}" />
-            <marker date="1492993927000" expanded="true" signature="108:320" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,34 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Models/FakeProductRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Models/SeedData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Models/ApplicationDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -674,39 +914,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Models/EFProductRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Models/IProductRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Models/Product.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SportsApp.Tests/UnitTest1.cs" />
     <entry file="file://$PROJECT_DIR$/SportsApp/Models/ViewModels/PagingInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="89" lean-forward="false" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp.Tests/PageLinkTagHelperTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -717,62 +929,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp.Tests/ProductControllerTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="57" lean-forward="false" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Infrastructure/PageLinkTagHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding>
-            <marker date="1492971520000" expanded="false" signature="6:238" ph="..." />
-            <marker date="1492971520000" expanded="true" signature="382:1855" ph="{...}" />
-            <marker date="1492971520000" expanded="true" signature="512:569" ph="{...}" />
-            <marker date="1492971520000" expanded="true" signature="1092:1849" ph="{...}" />
-            <marker date="1492971520000" expanded="true" signature="1274:1782" ph="{...}" />
-            <marker date="1492971520000" expanded="true" signature="1472:1666" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Models/ViewModels/ProductListViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <marker date="1492979482000" expanded="true" signature="72:236" ph="{...}" />
-            <marker date="1492979482000" expanded="true" signature="112:234" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <marker date="1492993562000" expanded="true" signature="17:576" ph="&lt;html.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="24:209" ph="&lt;head.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="210:568" ph="&lt;body.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="221:343" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="348:560" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="380:477" ph="&lt;div.../&gt;" />
-            <marker date="1492993562000" expanded="true" signature="486:549" ph="&lt;div.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SportsApp/Views/_ViewImports.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-          <folding>
-            <marker date="1492993646000" expanded="false" signature="7:58" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,54 +940,307 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
-            <marker date="1492993335000" expanded="true" signature="16:255" ph="&lt;div.../&gt;" />
-            <marker date="1492993335000" expanded="true" signature="39:199" ph="&lt;h3.../&gt;" />
-            <marker date="1492993335000" expanded="true" signature="89:189" ph="&lt;span.../&gt;" />
+            <marker date="1492905356000" expanded="true" signature="116:449" ph="{...}" />
+            <marker date="1492905356000" expanded="true" signature="354:443" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml">
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/EFProductRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
-            <marker date="1492993927000" expanded="true" signature="29:106" ph="@..." />
-            <marker date="1492993927000" expanded="true" signature="64:106" ph="{...}" />
-            <marker date="1492993927000" expanded="true" signature="108:320" ph="&lt;div.../&gt;" />
+            <marker date="1492906182000" expanded="true" signature="121:443" ph="{...}" />
+            <marker date="1492906182000" expanded="true" signature="192:261" ph="/// List of all products ... " />
+            <marker date="1492906182000" expanded="true" signature="389:436" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs">
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/FakeProductRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding>
-            <marker date="1492994136000" expanded="true" signature="6:109" ph="..." />
-            <marker date="1492994136000" expanded="true" signature="142:956" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="191:954" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="345:396" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="442:948" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="514:936" ph="{...}" />
-            <marker date="1492994136000" expanded="true" signature="757:922" ph="{...}" />
+            <marker date="1492872370000" expanded="true" signature="122:405" ph="{...}" />
+            <marker date="1492872370000" expanded="true" signature="203:398" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/IProductRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <marker date="1492906145000" expanded="true" signature="103:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1492872370000" expanded="true" signature="53:285" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/SeedData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <marker date="1492885093000" expanded="false" signature="6:102" ph="..." />
+            <marker date="1492885093000" expanded="true" signature="165:2490" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="239:2484" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="419:2474" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="496:640" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="674:855" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="889:1069" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="1103:1299" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="1333:1510" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="1544:1722" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="1756:1951" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="1985:2162" ph="{...}" />
+            <marker date="1492885093000" expanded="true" signature="2196:2402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Models/ViewModels/ProductListViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <marker date="1493510866000" expanded="true" signature="72:288" ph="{...}" />
+            <marker date="1493510866000" expanded="true" signature="112:286" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492872370000" expanded="true" signature="0:164" ph="{...}" />
+            <marker date="1492872370000" expanded="true" signature="15:162" ph="{...}" />
+            <marker date="1492872370000" expanded="true" signature="61:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <marker date="1492905581000" expanded="true" signature="0:101" ph="{...}" />
+            <marker date="1492905581000" expanded="true" signature="15:99" ph="{...}" />
+            <marker date="1492905581000" expanded="true" signature="61:95" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/bundleconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492872370000" expanded="true" signature="0:118" ph="/* Configure bundling and minification for the project. ... */" />
+            <marker date="1492872370000" expanded="true" signature="119:600" ph="[...]" />
+            <marker date="1492872370000" expanded="true" signature="123:307" ph="{...}" />
+            <marker date="1492872370000" expanded="true" signature="267:303" ph="[...]" />
+            <marker date="1492872370000" expanded="true" signature="311:598" ph="{...}" />
+            <marker date="1492872370000" expanded="true" signature="379:413" ph="[...]" />
+            <marker date="1492872370000" expanded="true" signature="476:533" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1493511626000" expanded="true" signature="6:149" ph="..." />
+            <marker date="1493511626000" expanded="true" signature="170:544" ph="{...}" />
+            <marker date="1493511626000" expanded="true" signature="197:542" ph="{...}" />
+            <marker date="1493511626000" expanded="true" signature="250:536" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Components/NavigationMenuViewComponents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <marker date="1493562049000" expanded="true" signature="17:591" ph="&lt;html.../&gt;" />
+            <marker date="1493562049000" expanded="true" signature="24:209" ph="&lt;head.../&gt;" />
+            <marker date="1493562049000" expanded="true" signature="210:583" ph="&lt;body.../&gt;" />
+            <marker date="1493562049000" expanded="true" signature="221:343" ph="&lt;div.../&gt;" />
+            <marker date="1493562049000" expanded="true" signature="348:575" ph="&lt;div.../&gt;" />
+            <marker date="1493562049000" expanded="true" signature="380:492" ph="&lt;div.../&gt;" />
+            <marker date="1493562049000" expanded="true" signature="501:564" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SportsApp/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="517">
+          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
           <folding>
-            <marker date="1492984808000" expanded="true" signature="6:355" ph="..." />
-            <marker date="1492984808000" expanded="true" signature="376:2276" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="403:2274" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="515:903" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1072:1422" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1640:2268" ph="{...}" />
-            <marker date="1492984808000" expanded="true" signature="1800:2212" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="6:355" ph="..." />
+            <marker date="1493512804000" expanded="true" signature="376:2769" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="403:2767" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="515:903" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1072:1422" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1640:2761" ph="{...}" />
+            <marker date="1493512804000" expanded="true" signature="1800:2705" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Views/Product/List.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <marker date="1493562380000" expanded="true" signature="29:106" ph="@..." />
+            <marker date="1493562380000" expanded="true" signature="64:106" ph="{...}" />
+            <marker date="1493562380000" expanded="true" signature="108:368" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Infrastructure/PageLinkTagHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1493562534000" expanded="true" signature="6:272" ph="..." />
+            <marker date="1493562534000" expanded="true" signature="308:2063" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="416:2061" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="546:603" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="1302:2055" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="1484:1988" ph="{...}" />
+            <marker date="1493562534000" expanded="true" signature="1702:1872" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp.Tests/PageLinkTagHelperTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <marker date="1493510273000" expanded="true" signature="6:271" ph="..." />
+            <marker date="1493510273000" expanded="true" signature="298:1938" ph="{...}" />
+            <marker date="1493510273000" expanded="true" signature="340:1936" ph="{...}" />
+            <marker date="1493510273000" expanded="true" signature="408:1930" ph="{...}" />
+            <marker date="1493510273000" expanded="true" signature="987:1242" ph="{...}" />
+            <marker date="1493510273000" expanded="true" signature="1036:1183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Components/NavigationMenuViewComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+          <folding>
+            <marker date="1493582712000" expanded="true" signature="6:74" ph="..." />
+            <marker date="1493582712000" expanded="true" signature="106:634" ph="{...}" />
+            <marker date="1493582712000" expanded="true" signature="169:632" ph="{...}" />
+            <marker date="1493582712000" expanded="true" signature="291:342" ph="{...}" />
+            <marker date="1493582712000" expanded="true" signature="388:626" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Views/Shared/Components/NavigationMenu/Default.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1493583639000" expanded="true" signature="47:172" ph="&lt;a.../&gt;" />
+            <marker date="1493583639000" expanded="true" signature="174:460" ph="@..." />
+            <marker date="1493583639000" expanded="true" signature="206:460" ph="{...}" />
+            <marker date="1493583639000" expanded="true" signature="213:458" ph="&lt;a.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/ProductController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1493584031000" expanded="true" signature="6:109" ph="..." />
+            <marker date="1493584031000" expanded="true" signature="142:1230" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="191:1228" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="345:396" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="459:1222" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="531:1210" ph="{...}" />
+            <marker date="1493584031000" expanded="true" signature="862:1151" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp.Tests/NavigationMenuComponentTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <marker date="1493584416000" expanded="true" signature="6:253" ph="..." />
+            <marker date="1493584416000" expanded="true" signature="280:2401" ph="{...}" />
+            <marker date="1493584416000" expanded="true" signature="328:2399" ph="{...}" />
+            <marker date="1493584416000" expanded="true" signature="393:1270" ph="{...}" />
+            <marker date="1493584416000" expanded="true" signature="577:928" ph="{...}" />
+            <marker date="1493584416000" expanded="true" signature="1336:2393" ph="{...}" />
+            <marker date="1493584416000" expanded="true" signature="1574:1759" ph="{...}" />
+            <marker date="1493584416000" expanded="true" signature="1844:2105" ph="{...}" />
+            <marker date="1493584416000" expanded="true" signature="1926:2091" ph="{...}" />
+            <marker date="1493584416000" expanded="true" signature="1998:2073" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SportsApp.Tests/ProductControllerTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="74" column="53" lean-forward="false" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+          <folding>
+            <marker date="1493585040000" expanded="true" signature="6:210" ph="..." />
+            <marker date="1493585040000" expanded="true" signature="237:3651" ph="{...}" />
+            <marker date="1493585040000" expanded="true" signature="279:3649" ph="{...}" />
+            <marker date="1493585040000" expanded="true" signature="335:945" ph="{...}" />
+            <marker date="1493585040000" expanded="true" signature="1014:1641" ph="{...}" />
+            <marker date="1493585040000" expanded="true" signature="2321:3116" ph="{...}" />
+            <marker date="1493585040000" expanded="true" signature="3177:3643" ph="{...}" />
+            <marker date="1493585040000" expanded="true" signature="3233:3632" ph="{...}" />
           </folding>
         </state>
       </provider>
