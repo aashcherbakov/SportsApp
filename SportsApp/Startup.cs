@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,6 +35,10 @@ namespace SportsApp
 
             // Add fake product repository to replace it in future with real one.
             services.AddTransient<IProductRepository, EFProductRepository>();
+
+            // Add SessionCart singleton that has access to session from HttpContext
+            services.AddScoped<Cart>(SessionCart.GetCart); // same object should be used for all cart-related requests
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             // Add framework services.
             services.AddMvc();
