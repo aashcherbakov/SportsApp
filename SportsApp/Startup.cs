@@ -35,6 +35,7 @@ namespace SportsApp
 
             // Add fake product repository to replace it in future with real one.
             services.AddTransient<IProductRepository, EFProductRepository>();
+            services.AddTransient<IOrderRepository, EFOrderRepository>();
 
             // Add SessionCart singleton that has access to session from HttpContext
             services.AddScoped<Cart>(SessionCart.GetCart); // same object should be used for all cart-related requests

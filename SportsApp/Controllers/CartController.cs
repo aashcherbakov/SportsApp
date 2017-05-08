@@ -9,7 +9,7 @@ namespace SportsApp.Controllers
     public class CartController : Controller
     {
         private readonly IProductRepository repository;
-        private Cart cart;
+        private readonly Cart cart;
 
         public CartController(IProductRepository repository, Cart cartService)
         {
