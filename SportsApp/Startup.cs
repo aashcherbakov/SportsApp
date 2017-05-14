@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -32,6 +28,10 @@ namespace SportsApp
         {
             // Add database connection
             services.AddDbContext<ApplicationDbContext>();
+            services.AddDbContext<AppIdentityDbContext>();
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDbContext>();
 
             // Add fake product repository to replace it in future with real one.
             services.AddTransient<IProductRepository, EFProductRepository>();
@@ -55,6 +55,7 @@ namespace SportsApp
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseSession();
+            app.UseIdentity();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -81,6 +82,7 @@ namespace SportsApp
             });
 
             SeedData.EnsurePopulated(app);
+            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }

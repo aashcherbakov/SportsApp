@@ -5,16 +5,20 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Extensions">
-      <Version>1.1.1</Version>
+      <Version>1.1.2</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Session">
       <Version>1.1.1</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite">
       <Version>1.1.1</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
     <PackageReference Include="Microsoft.Extensions.Caching.Memory">
       <Version>1.1.1</Version>
     </PackageReference>
@@ -29,16 +33,13 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Migrations" />
-    <Folder Include="Models\" />
+    <Folder Include="wwwroot\lib\fontawesome\css" />
+    <Folder Include="wwwroot\lib\fontawesome\fonts" />
+    <Folder Include="wwwroot\lib\fontawesome\scss" />
     <Folder Include="wwwroot\lib\bootstrap\fonts" />
     <Folder Include="wwwroot\lib\bootstrap\grunt" />
     <Folder Include="wwwroot\lib\bootstrap\js" />
     <Folder Include="wwwroot\lib\bootstrap\less\mixins" />
     <Folder Include="wwwroot\lib\bootstrap\nuget" />
-    <Folder Include="wwwroot\lib\fontawesome\css" />
-    <Folder Include="wwwroot\lib\fontawesome\fonts" />
-    <Folder Include="wwwroot\lib\fontawesome\less" />
-    <Folder Include="wwwroot\lib\fontawesome\scss" />
   </ItemGroup>
 </Project>

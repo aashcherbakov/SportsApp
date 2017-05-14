@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SportsApp.Models;
 
 namespace SportsApp.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private readonly IProductRepository repository;
