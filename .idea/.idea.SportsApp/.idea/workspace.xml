@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe4444e-9848-404f-8e30-2aea07387fb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp.Tests/OrderControllerTests.cs" afterPath="$PROJECT_DIR$/SportsApp.Tests/OrderControllerTests.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SportsApp/SportsApp.csproj" afterPath="$PROJECT_DIR$/SportsApp/SportsApp.csproj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="OrderController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/OrderController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="83" />
+            <state relative-caret-position="285">
+              <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -37,17 +37,17 @@
         <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/AdminController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminControllerTests.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminControllerTests.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SportsApp.Tests/AdminControllerTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="104" column="56" lean-forward="false" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
               <folding>
                 <marker date="1494708434000" expanded="false" signature="6:206" ph="..." />
                 <marker date="1494708434000" expanded="true" signature="233:4158" ph="{...}" />
@@ -64,6 +64,23 @@
                 <marker date="1494708434000" expanded="true" signature="3573:3657" ph="{...}" />
                 <marker date="1494708434000" expanded="true" signature="3718:4150" ph="{...}" />
                 <marker date="1494708434000" expanded="true" signature="3875:4096" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderControllerTests.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SportsApp.Tests/OrderControllerTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <marker date="1494797828000" expanded="false" signature="6:108" ph="..." />
+                <marker date="1494797828000" expanded="true" signature="135:2104" ph="{...}" />
+                <marker date="1494797828000" expanded="true" signature="175:2102" ph="{...}" />
+                <marker date="1494797828000" expanded="true" signature="245:812" ph="{...}" />
+                <marker date="1494797828000" expanded="true" signature="890:1532" ph="{...}" />
+                <marker date="1494797828000" expanded="true" signature="1600:2096" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,12 +176,12 @@
         <option value="$PROJECT_DIR$/SportsApp/Controllers/OrderController.cs" />
         <option value="$PROJECT_DIR$/SportsApp/Views/Order/List.cshtml" />
         <option value="$PROJECT_DIR$/SportsApp/Views/Shared/_AdminLayout.cshtml" />
-        <option value="$PROJECT_DIR$/SportsApp.Tests/OrderControllerTests.cs" />
         <option value="$PROJECT_DIR$/SportsApp/Views/Admin/Index.cshtml" />
         <option value="$PROJECT_DIR$/SportsApp/Views/Admin/Edit.cshtml" />
         <option value="$PROJECT_DIR$/SportsApp/Controllers/DeleteController.cs" />
         <option value="$PROJECT_DIR$/SportsApp/Controllers/AdminController.cs" />
         <option value="$PROJECT_DIR$/SportsApp.Tests/AdminControllerTests.cs" />
+        <option value="$PROJECT_DIR$/SportsApp.Tests/OrderControllerTests.cs" />
       </list>
     </option>
   </component>
@@ -371,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56039000" />
+    <option name="totallyTimeSpent" value="56132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,6 +401,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -391,7 +409,7 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22054794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24109589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24976873" sideWeight="0.49736643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24931507" sideWeight="0.49736643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26456985" sideWeight="0.49736643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2197092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -401,12 +419,27 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5026336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22054794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24109589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24976873" sideWeight="0.49736643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26456985" sideWeight="0.49736643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2197092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,8 +711,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SportsApp.Tests/OrderControllerTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <marker date="1494797828000" expanded="false" signature="6:108" ph="..." />
+            <marker date="1494797828000" expanded="true" signature="135:2104" ph="{...}" />
+            <marker date="1494797828000" expanded="true" signature="175:2102" ph="{...}" />
+            <marker date="1494797828000" expanded="true" signature="245:812" ph="{...}" />
+            <marker date="1494797828000" expanded="true" signature="890:1532" ph="{...}" />
+            <marker date="1494797828000" expanded="true" signature="1600:2096" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/OrderController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="83" />
+        <state relative-caret-position="285">
+          <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -755,15 +796,15 @@
     <entry file="file://$PROJECT_DIR$/SportsApp/Controllers/AdminController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SportsApp.Tests/AdminControllerTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="104" column="56" lean-forward="false" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
           <folding>
             <marker date="1494708434000" expanded="false" signature="6:206" ph="..." />
             <marker date="1494708434000" expanded="true" signature="233:4158" ph="{...}" />
