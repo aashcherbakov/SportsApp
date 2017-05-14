@@ -33,6 +33,8 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Migrations\AppIdentityDb" />
+    <Folder Include="Views\Account" />
     <Folder Include="wwwroot\lib\fontawesome\css" />
     <Folder Include="wwwroot\lib\fontawesome\fonts" />
     <Folder Include="wwwroot\lib\fontawesome\scss" />
