@@ -8,10 +8,5 @@ namespace SportsApp.Models
         public DbSet<Order> Orders { get; set; }
 
 		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite("Filename=./SportsApp.sqlite");
-        }
     }
 }

@@ -8,13 +8,14 @@ using SportsApp.Models;
 namespace SportsApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20170510115156_OrderTracking")]
-    partial class OrderTracking
+    [Migration("20170515010928_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
-                .HasAnnotation("ProductVersion", "1.1.1");
+                .HasAnnotation("ProductVersion", "1.1.2")
+                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("SportsApp.Models.CartLine", b =>
                 {
@@ -76,11 +77,14 @@ namespace SportsApp.Migrations
                     b.Property<int>("ProductId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Category");
+                    b.Property<string>("Category")
+                        .IsRequired();
 
-                    b.Property<string>("Description");
+                    b.Property<string>("Description")
+                        .IsRequired();
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.Property<decimal>("Price");
 

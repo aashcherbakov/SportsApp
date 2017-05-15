@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace SportsApp.Migrations
 {
@@ -13,7 +14,7 @@ namespace SportsApp.Migrations
                 columns: table => new
                 {
                     OrderId = table.Column<int>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     City = table.Column<string>(nullable: false),
                     Country = table.Column<string>(nullable: false),
                     GiftWrap = table.Column<bool>(nullable: false),
@@ -21,6 +22,7 @@ namespace SportsApp.Migrations
                     Line2 = table.Column<string>(nullable: true),
                     Line3 = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: false),
+                    Shipped = table.Column<bool>(nullable: false),
                     State = table.Column<string>(nullable: false),
                     Zip = table.Column<string>(nullable: true)
                 },
@@ -34,10 +36,10 @@ namespace SportsApp.Migrations
                 columns: table => new
                 {
                     ProductId = table.Column<int>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Category = table.Column<string>(nullable: true),
-                    Description = table.Column<string>(nullable: true),
-                    Name = table.Column<string>(nullable: true),
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Category = table.Column<string>(nullable: false),
+                    Description = table.Column<string>(nullable: false),
+                    Name = table.Column<string>(nullable: false),
                     Price = table.Column<decimal>(nullable: false)
                 },
                 constraints: table =>
@@ -50,7 +52,7 @@ namespace SportsApp.Migrations
                 columns: table => new
                 {
                     CartLineId = table.Column<int>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     OrderId = table.Column<int>(nullable: true),
                     ProductId = table.Column<int>(nullable: true),
                     Quantity = table.Column<int>(nullable: false)
